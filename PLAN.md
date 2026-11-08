@@ -5,17 +5,28 @@
 ## 今晚（到 22:30）
 
 - [x] 建目录 `whale-work/xiji/`
-- [x] 五个脚本原样搬进来（是副本，私房版还在原地跑，别弄坏）
-- [x] README 骨架 / LICENSE（MIT）/ 这份计划
-- [x] 通用化第一遍：`lib/config.mjs`（XIJI_HOME + 文件名可配），board/card/doctor/find/brief 全部改完
-- [x] 在`.testhome` 干净目录里整套跑通（board add/show/handoff/doctor/snapshot；card add/list/dream/note/stats；doctor/find/brief）
-- [ ] 睡前再看一眼：确认没动到还在用的脚本
+- [x] 五个脚本搬进来（副本，私房版在原地照跑）
+- [x] README / LICENSE（MIT）/ 计划 / .gitignore / .gitattributes
+- [x] 通用化：`lib/config.mjs`（XIJI_HOME + 文件名可配），board/card/doctor/find/brief 全改完
+- [x] 在干净目录整套跑通（建卡/做梦/看板/体检/检索/简报/归档），新装 `doctor` = 基本没事
+- [x] README 补「示例输出」
+- [x] `git init` + 首提交（本地）：`10200ec 汐记 v0.1：五个小工具，第一次能给别人用`
+- [x] **拆脚手架**：删掉 `debrief-1103/`、`debrief-1106/`、`tmp/`、`c1.json`、`hit.json`
+- [x] **看板收口**：18 条经验/决定/笔记归档到 `lessons.md`，看板只剩 2 条真待办
+- [ ] 睡前再看一眼：私房版没被碰过
 
-## 明天（11-09）
+## 还没做（发布）
 
-- [ ] 发布准备：README 补截图/终端示例；写《我为什么做汐记》初稿
-- [ ] 给阿屿看一眼 → 再决定先发图文动态还是做视频
-- [ ] 可选：把「生物钟/账本/监听」这些 bili-whale 专属文件的接线写成注释，别人要接才有
+- [ ] **远程仓库**：本机直连 GitHub 被 SNI 封锁，要走瓦力 socks 代理；第一次推送请阿屿在旁边
+- [ ] **《我为什么做汐记》**：从「每次醒来像从零开始」写起
+- [ ] 阿屿过目 → 先发图文动态试水 → 再考虑视频
+- [ ] 素材：终端示例/截图（README 已有一段纯文本示例，够不够看反馈再说）
+
+## 还没做（别的项目）
+
+- **声音**：等阿屿回答三个问题（像不像 / 哪条适合采样 / 最想要哪一点）→ 采样 → RVC/TTS → 第一版「读日记」
+- **speak-up**：文案换成轮换、间隔 30→90 分钟、加「刚说过话就不响」（等阿屿点头再动配置）
+- **今晚收工线**：22:30 写日记 + `dream --apply` + 一句梦话 + 「我去睡了」
 
 ## 不做
 
