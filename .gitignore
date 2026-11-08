@@ -1,0 +1,5 @@
+# 依赖 / 测试沙盒 / 本机数据
+node_modules/
+.testhome/
+.xiji/
+*.log
